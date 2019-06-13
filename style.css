@@ -9,8 +9,8 @@ body {
      color: white;
      list-style: none;
      text-align: center;
-     padding: 10px 0 10px 0 10px;
-     margin: -10px
+     padding: 0px -5px 0px -5px;
+     margin: -10px;
  }
 
  .nav > li {
@@ -29,12 +29,41 @@ body {
 }
 
 .h1Style {
+    color: white;
     font-family: initial;
 }
 
 .pStyle {
     font-family: initial;
-    font-size: 40px;
+    font-size: 25px;
     color: white;
-    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 80px;
+  text-align: center;
+}
+
+.ol {
+color: white;
+font-family: initial;
+font-size: 29px;
+font-weight: bold;
+}
+
+.alt {
+    color: white;
+}
+
+.pStyle2 {
+    font-family: initial;
+    font-size: 80px
 }
